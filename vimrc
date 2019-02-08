@@ -12,3 +12,7 @@ filetype plugin on
 map <C-n> :tabnew<CR>
 map <C-l> :tabnext<CR>
 map <C-h> :tabprevious<CR>
+
+" map for auto-close
+inoremap { {}<LEFT>
+inoremap ( ()<LEFT>
