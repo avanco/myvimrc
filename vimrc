@@ -16,3 +16,6 @@ map <C-h> :tabprevious<CR>
 " map for auto-close
 inoremap { {}<LEFT>
 inoremap ( ()<LEFT>
+
+" display keystrokes
+set showcmd
