@@ -17,5 +17,9 @@ map <C-h> :tabprevious<CR>
 inoremap { {}<LEFT>
 inoremap ( ()<LEFT>
 
+" copy and paste to/from clipboard
+vnoremap <C-c> "+y
+nnoremap <C-v> "+p
+
 " display keystrokes
 set showcmd
